@@ -9,6 +9,12 @@
 
 This repository contains my coursework submission for the module *CS141 - Functional Programming*. The project focuses on **implementing parsers** and **writing a complete application using haskell**.
 
+## 💻 Demonstrations
+
+[Videos of the Game Running](https://youtube.com/playlist?list=PLY4lCnYQQkJXnH8pamYGNxL2PKemjFeXJ&feature=shared)
+
+![Screenshot of the Game Running](Demo.png)
+
 ## 🗂️ Contents
 
 - `report.pdf` — Coursework report in PDF format. This is a general explanation of my code
