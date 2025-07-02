@@ -1,7 +1,7 @@
 # Gridlock (CS141 Coursework 2) | Overall Mark : 95%
-> **University of Warwick — Department of Computer Science**  
-> Module: **CS141 — Functional Programming**
-> Academic Year: **2024/25**
+> University of Warwick — Department of Computer Science 
+> Module: CS141 — Functional Programming
+> Academic Year: 2024/25
 
 ## 📋 Description
 
@@ -38,8 +38,5 @@ This repository contains my coursework submission for the module *CS141 - Functi
 
 - Warwick module spec: *https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs141/*
 
-## 📄 License
-
-This coursework is shared under the **[MIT / Creative Commons / None (Private Use Only)]** license.  
 Please do not redistribute or submit as your own work.
 
