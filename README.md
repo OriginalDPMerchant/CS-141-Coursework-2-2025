@@ -1,7 +1,9 @@
 # Gridlock (CS141 Coursework 2) | Overall Mark : 95%
 > **University of Warwick — Department of Computer Science**
-> **Module: CS141 — Functional Programming**
-> **Academic Year: 2024/25**
+> 
+> Module: [*CS141 — Functional Programming*](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs141/)
+> 
+> Academic Year: *2024/25*
 
 ## 📋 Description
 
@@ -23,6 +25,21 @@ This repository contains my coursework submission for the module *CS141 - Functi
 - ✅ **Allowing the user to save Gridlock games to a file**
 - ✅ **Error Handling and Retry Logic**
 
+## 🏗️ Building
+
+### 🔧 Prerequisites
+
+- Follow the instructions for installing ghcup [on the Haskell.org website](https://www.haskell.org/ghcup/). Answer A
+then Y then Y to the three prompts.
+
+- If you are using VSCode, install the haskell extension after installing ghcup and it
+will automatically initialise the toolchain once you open a Haskell file in a properlyconfigured project folder. If not using VSCode, please install ghc version 9.4.8;
+and stack and cabal recommended versions according to ghcup.
+
+### 🏃‍♂ Running
+
+- Navigate to the `code\` directory and execute the command `stack run`
+
 ## 🛠️ Technologies Used
 
 - Language: **Haskell**  
@@ -32,11 +49,5 @@ This repository contains my coursework submission for the module *CS141 - Functi
 ## 📎 Notes
 
 - Student ID and confidential information have been removed.
-- This repository is for educational and portfolio purposes only.
-
-## 📚 References
-
-- Warwick module spec: *https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs141/*
-
-Please do not redistribute or submit as your own work.
+- Please do not redistribute or submit as your own work.
 
