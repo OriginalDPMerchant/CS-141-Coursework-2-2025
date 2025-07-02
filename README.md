@@ -1,6 +1,6 @@
 # Gridlock (CS141 Coursework 2) | Overall Mark : 95%
 > **University of Warwick — Department of Computer Science**  
-> Module: *CS141 - Functional Programming*
+> Module: *CS141 — Functional Programming*
 > Academic Year: *2024/25*
 
 ## 📋 Description
