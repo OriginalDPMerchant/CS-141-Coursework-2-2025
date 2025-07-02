@@ -1,0 +1,12 @@
+GRIDLOCK
+Players: Amy, Amy.
+Grid: 3x3.
+Colours: red, green.
+
+Amy plays red at (0,0).
+Amy plays red at (2,0).
+Amy plays green at (1,1).
+Amy plays red at (0,2).
+Amy plays red at (2,2).
+Amy cannot move.
+Amy wins!

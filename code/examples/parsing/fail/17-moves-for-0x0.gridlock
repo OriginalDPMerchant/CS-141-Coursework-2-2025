@@ -1,0 +1,9 @@
+GRIDLOCK
+Players: Amy, Bill.
+Grid: 0x0.
+Colours: red, green, blue.
+Amy plays red at (0,0).
+Bill plays red at (2,0).
+Amy plays green at (1,1).
+Amy cannot move.
+Bill wins!
