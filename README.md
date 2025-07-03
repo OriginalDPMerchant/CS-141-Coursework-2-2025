@@ -1,37 +1,57 @@
-# Gridlock (CS141 Coursework 2) | Overall Mark : 95%
-> **University of Warwick — Department of Computer Science**
-> 
-> Module: [*CS141 — Functional Programming*](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs141/)
-> 
-> Academic Year: *2024/25*
+# Gridlock (CS141 Coursework 2) | Overall Mark: 95%  
+> **University of Warwick — Department of Computer Science**  
+> Module: [*CS141 — Functional Programming*](https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs141/)  
+> Academic Year: *2024/25*  
 
-## 📋 Description
+## 📋 Description  
+This repository contains my coursework submission for the module *CS141 - Functional Programming*. The project implements a **Haskell program** to parse, display, and play Gridlock games, as specified in the assignment. Gridlock is a two-player colouring game where players take turns colouring cells on a grid without matching adjacent colours. The program includes:  
+- A parser for `.gridlock` files with syntactic and semantic validation.  
+- A terminal-based UI for interactive gameplay.  
+- Features for saving and loading game files.  
 
-This repository contains my coursework submission for the module *CS141 - Functional Programming*. The project focuses on **implementing parsers** and **writing a complete application using haskell**.
+The project exceeded the minimum requirements by adding a fully playable UI and file management system, earning high marks for functionality, elegance, and documentation.  
 
-## 💻 Demonstrations
-
-[Videos of the Game Running](https://youtube.com/playlist?list=PLY4lCnYQQkJXnH8pamYGNxL2PKemjFeXJ&feature=shared)
-
+## 📸 Demonstrations  
+- [Video Playlist: Loading, Error Handling, and Gameplay](https://youtube.com/playlist?list=PLY4lCnYQQkJXnH8pamYGNxL2PKemjFeXJ)  
 ![Screenshot of the Game Running](Demo.png)
 
-## 🗂️ Contents
+## 🎮 Features  
+### Core Requirements  
+✅ **Parsing & Validation**  
+- Parse `.gridlock` files using Megaparsec, checking for syntactic and semantic errors (e.g., invalid moves, missing components).  
+- Represent game states as an Abstract Syntax Tree (AST) for validation.  
 
-- `report.pdf` — Coursework report in PDF format. This is a general explanation of my code
-- `assignment.pdf` —  The brief given for the assignment by the lecturer
-- `feedback.pdf` —  The feedback given to me by my lecturer
-- `code/` — Source code for the project    
-- `README.md` — Project overview (this file)
+✅ **Grid Display**  
+- Render grids with coloured borders and cells using ANSI escape sequences (via `drawGrid`).  
 
-## 🚀 Features / Objectives
+### Extensions  
+✨ **Interactive Terminal UI**  
+- Built with the `Brick` library, featuring:  
+  - A file browser to load/save games.  
+  - Real-time gameplay with click-to-move functionality.  
+  - Error handling screens for invalid inputs.  
 
-- ✅ **Terminal UI for the user to interact with**
-- ✅ **Loading and validating Gridlock save files**  
-- ✅ **Allowing the user to play Gridlock games**  
-- ✅ **Allowing the user to save Gridlock games to a file**
-- ✅ **Error Handling and Retry Logic**
+✨ **Gameplay & Saving**  
+- Play Gridlock against another player locally.  
+- Save game progress to `.gridlock` files by reconstructing moves from grid states.  
 
-## 🏗️ Building
+## 🛠️ Technologies  
+- **Languages**: Haskell (GHC 9.4.8)  
+- **Libraries**:  
+  - [`Megaparsec`](https://hackage.haskell.org/package/megaparsec) for parsing.  
+  - [`Brick`](https://hackage.haskell.org/package/brick) for terminal UI.  
+- **Tools**: VS Code, Haskell Language Server, Stack.  
+
+## 📂 Repository Structure  
+```plaintext
+├── report.pdf           # Coursework report (design choices, challenges, resources)  
+├── assignment.pdf       # Original coursework brief  
+├── feedback.pdf         # Lecturer feedback (95/100)  
+├── code/...             # Source code  
+└── README.md            # This file
+```
+
+## 🚀 Getting Started
 
 ### 🔧 Prerequisites
 
@@ -44,16 +64,11 @@ and stack and cabal recommended versions according to ghcup.
 
 ### 🏃‍♂ Running
 
+- Clone the repository
+
 - Navigate to the `code\` directory and execute the command `stack run`
 
-## 🛠️ Technologies Used
-
-- Language: **Haskell**  
-- Tools: **VS Code, Haskell Language Server, Glasgow Haskell Compiler, Stack (Haskell build tool)**  
-- Libraries: **Brick (Terminal UI), Megaparsec (Parsing Game Files)**
-
-## 📎 Notes
+## ⚠️ Disclaimer
 
 - Student ID and confidential information have been removed.
 - Please do not redistribute or submit as your own work.
-
